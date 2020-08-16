@@ -4,12 +4,25 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <!-- https://css-tricks.com/emojis-as-favicons/ -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍞</text></svg>">
+    <link rel="stylesheet" href="https://unpkg.com/normalize.css">
+    <link rel="stylesheet" href="https://unpkg.com/concrete.css">
+    <title>Bread Math</title>
+    <meta name="description" content="A simple baker's math calculator for sourdough bread baking. Quickly find the amount of flour, water, salt, and starter needed given a target hydration and dough weight.">
+    <meta name="author" content="John Meguerian">
+    <meta property="og:title" content="Bread Math">
+    <meta property="og:description" content="A simple baker's math calculator for sourdough bread baking. Quickly find the amount of flour, water, salt, and starter needed given a target hydration and dough weight.">
+    <meta property="og:image" content="<%= BASE_URL %>og-image.jpg">
+    <meta property="og:url" content="<%= BASE_URL %>">
+    <meta property="og:site_name" content="Bread Math">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image:alt" content="Bread Math dot com">
+    
   </head>
   <body>
     <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong>We're sorry but Bread Math doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
