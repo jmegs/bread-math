@@ -17,6 +17,7 @@
 				<td>{{ output }}</td>
 			</tr>
 		</table>
+    <small>made by <a href="https://johnmeguerian.com">jmegs.</a> Source on <a href="https://github.com/jmegs/bread-math">GitHub.</a></small>
 	</div>
 </template>
 
