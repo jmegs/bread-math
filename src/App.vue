@@ -31,7 +31,7 @@
 export default {
   data() {
     return {
-      hydration: 72,
+      hydration: 76,
       tdw: 1000
     }
   },
